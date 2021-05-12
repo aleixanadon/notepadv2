@@ -1,0 +1,82 @@
+body {
+     padding: 0;
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+     text-align: left;
+     font-weight: 600;
+     font-size: 30px;
+}
+
+hr {
+
+}
+
+img {
+     height: auto;
+     width: 90px;
+}
+
+div {
+     padding: 20px 0px;
+     margin: inherit;
+     font-size: 30px;
+}
+
+header {
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid black;
+     justify-content: space-between;
+}
+
+header > section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+header > section + section > a {
+     padding: 0px 20px;
+}
+
+h1 {
+     margin: inherit;
+}
+
+form {
+     height: auto;
+     width: 160px;
+     display: grid;
+     padding: 30px 20px 30px 20px;
+     margin: auto;
+}
+
+input[type="text"]{
+     padding: 10px 20px;
+     text-align: center;
+}
+
+input[type="submit"]{
+
+}
+
+table {
+
+     padding-left: 20px;
+}
+
+table > tr {
+     padding: 10px;
+}
+
+table > tr > th {
+     padding: 10px;
+}
+
+table > tr > td {
+
+}
+
+table > tr > td > a {
+
+}
