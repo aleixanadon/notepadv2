@@ -1,0 +1,154 @@
+/* PÁGINA PARA MÓBILES */
+@media only screen and (max-width: 828px) {
+     body *{
+          font-size: 12px;
+     }
+
+     body > section {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+     }
+
+     body > section > article {
+          margin: 16px 0px;
+     }
+
+     header {
+          height: 40px;
+     }
+
+     header > section > img {
+          display: none;
+     }
+
+     table {
+          height: auto;
+          width: 14px;
+     }
+
+     table > tr, th, td {
+          border: 2px solid black;
+          padding: 4px;
+     }
+
+     textarea {
+          height: 40px;
+     }
+}
+
+/* PÁGINA PARA ORDENADOR */
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Roboto;
+     font-weight: bolder;
+
+}
+
+body > div {
+     background-color: #d4d4d4;
+     padding: 12px;
+}
+
+header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     font-size:22px;
+     border-bottom: 2px solid black;
+     margin: 0px 10px 0px 10px;
+}
+
+header > section {
+     display: inherit;
+     justify-content: inherit;
+     align-items: inherit;
+
+}
+
+header > section > img {
+     height: auto;
+     width: 80px;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+header > section > h1 > a {
+     text-decoration: none;
+     color: black;
+}
+
+header > nav {
+     display: inherit;
+     margin: inherit;
+}
+
+header > nav > a {
+     margin: 0px 10px;
+}
+
+body > section {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 3%;
+}
+
+section > article > form {
+     display: flex;
+     flex-direction: column;
+}
+
+fieldset {
+     display: flex;
+     flex-direction: inherit;
+     align-items: center;
+     box-shadow: 6px 8px;
+     border: 2px solid black;
+}
+
+input[type="text"] {
+     text-align: center;
+     margin: 15px 0px;;
+     padding: 10px;
+     width: 20em;
+     height: 1em;
+}
+
+button[type="submit"] {
+     height: 30px;
+     width: 290px;
+     margin: 15px 0px;
+     border-radius: 1px;
+}
+
+table  {
+     text-align: left;
+     border-collapse: collapse;
+     border: 2px solid black;
+}
+
+table > tr, th, td {
+     border: 2px solid black;
+     padding: 14px;
+}
+
+footer {
+     position: fixed;
+     padding: 10px;
+     bottom: 0;
+     width: 100%;
+     height: 20px;
+     text-align: center;
+     font-size: 12px;
+}
